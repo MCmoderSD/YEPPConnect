@@ -1,7 +1,7 @@
 # YEPPConnect
 
 ## Description
-This is a simple Minecraft plugin that allows players to connect to whitelist themselves via the [YEPPBot](https://github.com/MCmoderSD/YEPPBot/). <br>
+This is a simple Minecraft plugin that allows players to whitelist themselves via the [YEPPBot](https://github.com/MCmoderSD/YEPPBot/). <br>
 The plugin is written in Java 8 and uses the [Spigot API](https://www.spigotmc.org/) to let your [YEPPBot](https://github.com/MCmoderSD/YEPPBot/) interact with your Minecraft server. <br>
 That way you can easily manage your whitelist and let players join your server via your Twitch Chat without having to manually whitelist them. <br>
 
