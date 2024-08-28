@@ -1,0 +1,27 @@
+name: YEPPConnect
+version: '1.21.0'
+main: de.MCmoderSD.YEPPConnect.main.Main
+description: "YEPPConnect is a plugin for connecting your server with your Twitch Chat via the YEPPBot."
+
+authors: [ MCmoderSD ]
+website: "https://MCmoderSD.de"
+
+api-version: '1.13'
+load: POSTWORLD
+prefix: "YEPPConnect"
+default-permission: op
+
+
+commands:
+
+  YEPPConnect-loop:
+    description: "Pause or resume the update loop"
+    usage: /YEPPConnect-Loop <true | false>
+    permission: YEPPConnect.pause
+    permission-message: "You do not have permission to use this command"
+
+  YEPPConnect-whitelist:
+    description: "Add or remove a Broadcaster from the update loop"
+    usage: /YEPPConnect <add | remove> <name | id> <value>
+    permission: YEPPConnect.whitelist
+    permission-message: "You do not have permission to use this command"
